@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Web design 101</title>
+    <link rel="stylesheet" type="text/css" href="./styles/respo-web.css">
+    <link href='https//fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  </head>
+  <body>
+    <header>
+       <h1 class="name-head"> Responsive Web Design 101</h1>
+    </header>
+
+    <main class="respo-container">
+    <div>
+      <p class="about-font">
+      Responsive web design resolves various problems that exist with adaptive design. One of the main problems with adaptive design is that the web programming files are managed separately for different devices and browsers. This approach reduces usability and is overall cumbersome for the developers to manage code for each platform separately. Responsive design resolves this issue by maintaining one set of files that works across various devices and browsers. This allows the developers to not worry about repeating changes for each separately maintained codebase. From the users' point of view, they don't have to remember different URLs respective to each device and this also reduces common mistakes in accessing the web site. From the system point of view, it reduces load time by directing the user to one codebase automatically instead of having a backend that chooses the right codebase depending on the user’s device. It also helps the search engine find content quickly rather than crawl through many different versions of the website.
+      </p>
+    </div>
+    <div class="respo-form-container">
+      <form>
+        <fieldset>
+          <legend>Users Input </legend>
+          <label> Why are you interested in making your website responsive?
+            <input type="text" name="first-quest">
+          </label>
+          <br>
+          <br>
+          <fieldset>
+            <legend>What features you like on your website? </legend>
+          <label>
+            <input type="checkbox" name="features" value="Search">
+            Search
+          </label>
+          <label>
+            <input type="checkbox" name="features" value="Navigation">
+            Navigation
+          </label>
+          <label>
+            <input type="checkbox" name="features" value="Social Media">
+            Socail Media
+          </label>
+          <label>
+            <input type="checkbox" name="features" value="Security">
+            Security
+          </label>
+          </fieldset>
+          <br>
+          <label for="userscount">How many unique vistors does your website receive daily? </label>
+          <select name="userscount" id="userscount">
+            <option value="">Please Choose one</option>
+            <option value="100-200">100 to 1000 </option>
+            <option value="1000-2000">1000 to 2000 </option>
+            <option value="2000-5000">2000 to 5000 </option>
+            <option value="5000-10000">5000 t0 10000 </option>
+          </select>
+          <br>
+          <br>
+          <fieldset>
+            <legend> How do you rate your current website? </legend>
+            <label>
+              <Input type="radio" name="rate" value="0" required>
+                Bad
+              </label>
+              <label>
+                <Input type="radio" name="rate" value="1" required>
+                Good
+              </label>
+              <label>
+                <Input type="radio" name="child-count" value="2" required>
+                  Very Good
+              </label>
+          </fieldset>
+          <br>
+          <label> What is your biggest concern with your current website?
+            <textarea name="About Responsive Design" rows="10" cols="40"> </textarea>
+          </label>
+          <br>
+          <br>
+          <input type="submit" name="submit" value="Submit">
+        </fieldset>
+
+      </form>
+    </div>
+  </main>
+  </body>
+</html>
